@@ -1,5 +1,6 @@
 <a href="#" 
-class="list-group-item list-group-item-action flex-column align-items-start">
+class="list-group-item list-group-item-action flex-column align-items-start"
+(click)="OnSelectRecipeItem()">
     <div class="d-flex w-100 justify-content-between">
         <h4 class="mb-1">{{ recipe.name }}</h4>
         <img [src]="recipe.imagePath" alt="{{ recipe.name }}" class="img-responsive" style="max-height: 50px;">
